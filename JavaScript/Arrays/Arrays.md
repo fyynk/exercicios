@@ -2,7 +2,6 @@
 
 Adicionar suporte para `array` em **Egg** construindo as três funções em `topEnv` do escopo: `array(...)` vai ser a construção de uma matriz contendo os argumentos como valores, `length(array)` para obter o comprimento de um `array` e `element(array, n)` buscar `n` elementos de uma matriz.
 
-
 ```js
 // Modify these definitions...
 
