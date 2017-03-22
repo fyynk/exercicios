@@ -22,7 +22,7 @@ function average(array) {
 
 Para ganhar um ponto extra escreva uma função `groupBy` que abstrai a operação de agrupamento. Ele deve aceitar um `array` como argumento e uma função que calcula cada elemento do grupo de `array` e retorna um objeto que mapeia os nomes dos grupos de `arrays` e os membros do grupo.
 
-**Dica:**
+**Dica**
 
 A essência desse exemplo encontra-se no agrupamento dos elementos em um conjunto por alguns aspectos - a divisões do `array` de ancestrais em pequenos `arrays` com os ancestrais de cada século.
 

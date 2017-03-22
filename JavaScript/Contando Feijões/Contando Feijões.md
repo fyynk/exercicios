@@ -15,6 +15,8 @@ console.log(countChar(“kakkerlak”, “k”));
 // → 4
 ```
 
-**Dica:** Um laço de repetição em sua função fará com que todos os caracteres na `string` sejam verificados se usarmos um índice de zero até uma unidade abaixo que seu tamanho (`< string.length`). Se o caractere na posição atual for o mesmo que a função está procurando, ele incrementará uma unidade na variável de contagem (`counter`). Quando o laço chegar ao seu fim, a variável `counter` deverá ser retornada.
+**Dica**
+
+Um laço de repetição em sua função fará com que todos os caracteres na `string` sejam verificados se usarmos um índice de zero até uma unidade abaixo que seu tamanho (`< string.length`). Se o caractere na posição atual for o mesmo que a função está procurando, ele incrementará uma unidade na variável de contagem (`counter`). Quando o laço chegar ao seu fim, a variável `counter` deverá ser retornada.
 
 Certifique-se de usar e criar variáveis locais à função, utilizando a palavra-chave `var`.

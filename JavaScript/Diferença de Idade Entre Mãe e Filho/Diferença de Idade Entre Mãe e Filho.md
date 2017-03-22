@@ -20,6 +20,6 @@ ancestry.forEach(function(person) {
 // → 31.2
 ```
 
-**Dica:**
+**Dica**
 
 Como nem todos os elementos do `array` de ascendência produz dados úteis (não podemos calcular a diferença de idade, a menos que saibamos a data de nascimento da mãe) teremos que aplicar de alguma maneira um filtro antes de chamarmos o `average`. Você pode fazer isso no primeiro passo, basta definir uma função `hasKnownMother` para a primeira filtragem. Alternativamente você pode começar a chamar o `map` e na função de mapeamento retornar a diferença de idade ou nulo se mãe for desconhecida. Em seguida você pode chamar o `filter` para remover os elementos nulos antes de passar o `array` para o método `average`.
