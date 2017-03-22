@@ -1,8 +1,6 @@
 # Diferença de Idade Entre Mãe e Filho
 
-Usando os dados de exemplo definidos neste capítulo, calcule a diferença de idade média entre mães e filhos (a idade da mãe quando a criança nasce). Você pode usar a função `average` definida anteriormente neste capítulo.
-
-Note que nem todas as mães mencionadas no conjunto de dados estão presentes no `array`. O objeto `byName` facilita a busca por um objeto pessoa através do nome. Esse método pode ser útil aqui.
+Calcule a diferença de idade média entre mães e filhos (a idade da mãe quando a criança nasce). Note que nem todas as mães mencionadas no conjunto de dados estão presentes no `array`. O objeto `byName` facilita a busca por um objeto pessoa através do nome. Esse método pode ser útil aqui.
 
 ```js
 function average(array) {

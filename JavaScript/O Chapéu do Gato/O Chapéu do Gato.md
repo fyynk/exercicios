@@ -1,6 +1,6 @@
 # O Chapéu do Gato
 
-Extenda a animação do gato definida anteriormente de modo que tanto o gato quando seu chapéu (`<img src="img/hat.png"`) façam a mesma órbita em lados diferentes da elipse.
+Extenda a animação do gato definida anteriormente de modo que tanto o gato quando seu chapéu (`<img src="img/hat.png">`) façam a mesma órbita em lados diferentes da elipse.
 
 Ou faça o chapéu circular ao redor do gato. Você pode ainda alterar a animação de outra maneira que julgar interessante.
 

@@ -1,8 +1,8 @@
 # Gráfico de Pizza
 
-No início do capítulo vimos um exemplo de programa que desenhou um gráfico de pizza. Modifique este programa para que o nome de cada categoria seja mostrado e fique ao lado de cada fatia que representa. Tente encontrar uma maneira agradável de mostrar e posicionar automaticamente este texto. Você pode assumir que as categorias não são menores do que 5 por cento.
+Modifique este programa abaixo para que o nome de cada categoria seja mostrado e fique ao lado de cada fatia que representa. Tente encontrar uma maneira agradável de mostrar e posicionar automaticamente este texto. Você pode assumir que as categorias não são menores do que 5 por cento.
 
-Você pode precisar de novo do `Math.sin` e `Math.cos` conforme descrito no exercício anterior.
+Você pode precisar do `Math.sin` e `Math.cos`.
 
 ```html
 <canvas width="600" height="300"></canvas>

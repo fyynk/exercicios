@@ -1,6 +1,6 @@
 # A soma de um intervalo
 
-A [introdução](./00-introdução.md) desse livro mencionou a seguinte maneira como uma boa alternativa para somar um intervalo de números:
+Uma boa alternativa para somar um intervalo de números:
 
 ```js
 console.log(sum(range(1, 10)));

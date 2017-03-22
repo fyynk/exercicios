@@ -1,6 +1,6 @@
 # Mínimo
 
-O [capítulo anterior](./02-estrutura-do-programa.md) introduziu a função `Math.min` que retorna o seu menor argumento. Nós podemos reproduzir essa funcionalidade agora. Escreva uma função `min` que recebe dois argumentos e retorna o menor deles.
+A função `Math.min` retorna o seu menor argumento. Nós podemos reproduzir essa funcionalidade agora. Escreva uma função `min` que recebe dois argumentos e retorna o menor deles.
 
 ```js
 // Your code here.
