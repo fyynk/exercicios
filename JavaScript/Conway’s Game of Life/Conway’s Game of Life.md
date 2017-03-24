@@ -1,4 +1,4 @@
-#Conway’s Game of Life
+# Conway’s Game of Life
 
 Jogo da Vida de Conway é uma simulação simples que cria a "vida" artificial em uma grade, cada célula, que é ao vivo ou não. Cada geração (virar), as seguintes regras são aplicadas:
 
