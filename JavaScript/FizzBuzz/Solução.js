@@ -1,5 +1,5 @@
 function isMultiple(num, divisor) {
-    return num % divisor === 0;
+	return num % divisor === 0;
 }
 
 // SOLUÇÃO SIMPLES ----------------------------
