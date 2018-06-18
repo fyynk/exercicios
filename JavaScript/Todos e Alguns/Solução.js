@@ -1,25 +1,25 @@
-function every (array, comparisonValue) {
-	var bool;
+function every(array, comparisonValue) {
+  var bool;
 
-	for (prop in array) {
-		if(!isNaN(array[prop])) {
-			bool = false;
-		} else {
-			bool = true;
-		}
-	}
+  for (prop in array) {
+    if (!isNaN(array[prop])) {
+      bool = false;
+    } else {
+      bool = true;
+    }
+  }
 
-	return bool;
+  return bool;
 }
 
-function some (array, comparisonValue) {
-	for (prop in array) {
-		if(isNaN(array[prop])) {
-			return true;
-		}
-	}
+function some(array, comparisonValue) {
+  for (prop in array) {
+    if (isNaN(array[prop])) {
+      return true;
+    }
+  }
 
-	return false;
+  return false;
 }
 
 console.log(every([NaN, NaN, NaN], isNaN));

@@ -1,35 +1,35 @@
 function arrayToList(array) {
-	var result = null;
+  var result = null;
 
-	for (var i = array.length - 1; i >= 0; i--) {
-		result = prepend(array[i], result);
-	}
+  for (var i = array.length - 1; i >= 0; i--) {
+    result = prepend(array[i], result);
+  }
 
-	return result;
+  return result;
 }
 
 function prepend(element, list) {
-	return { value: element, rest: list };
+  return { value: element, rest: list };
 }
 
 function listToArray(list) {
-	var result = [];
+  var result = [];
 
-	for (var j = list; j; j = j.rest) {		
-		result.push(j.value);
-	}
+  for (var j = list; j; j = j.rest) {
+    result.push(j.value);
+  }
 
-	return result;
+  return result;
 }
 
 function nth(list, number) {
-	if(!list) {
-		return undefined;
-	} else if (number == 0) {
-		return list.value;
-	} else {
-		return nth(list.rest, number - 1);
-	}	
+  if (!list) {
+    return undefined;
+  } else if (number == 0) {
+    return list.value;
+  } else {
+    return nth(list.rest, number - 1);
+  }
 }
 
 console.log(arrayToList([10, 20]));
